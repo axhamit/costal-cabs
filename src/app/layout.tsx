@@ -24,6 +24,10 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Coastal Cabs by Gokarna Friends" }],
   metadataBase: new URL("https://coastalcabsbygokarnafriends.com"),
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+  },
   openGraph: {
     title: "Coastal Cabs | Explore Gokarna & Coastal Karnataka",
     description:
